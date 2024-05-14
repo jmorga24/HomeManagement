@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "HomeManagement", "HomeManagement\HomeManagement.pyproj", "{4BF48C79-23CC-4F4D-976E-EBB68C008D9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BF48C79-23CC-4F4D-976E-EBB68C008D9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BF48C79-23CC-4F4D-976E-EBB68C008D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F681AD6-2636-4B9E-BEDF-852A734873AC}
+	EndGlobalSection
+EndGlobal
