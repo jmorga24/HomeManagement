@@ -9,8 +9,7 @@ from uuid_extensions import uuid7 # type: ignore
 
 sys.path.append("..")
 from jm_classes import Event
-from Utilities_jmorga24.property_plugins import NormalizeBase, PluginError, ValidateBase
-from Utilities_jmorga24.properties import Property
+from Utilities_jmorga24.property_plugins import PluginError
 
 class TestEventClass():
     '''
@@ -42,6 +41,7 @@ class TestEventClass():
         assert isinstance(e.end(), datetime)
         assert e.end() == e.start + timedelta(minutes= 60)
         assert isinstance(e.creation_date, datetime)
+
 
     def test_create_instance_of_event_with_date(self):
         ''' Confirm that passing a date as the start argument works

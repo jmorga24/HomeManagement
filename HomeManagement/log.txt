@@ -1,44 +1,144 @@
-INFO - 2024-08-02 11:55:18,076 - jm_logger - Logger Starting: will log 'DEBUG' messages and above to: log.txt
-DEBUG - 2024-08-02 11:55:18,076 - jm_logger.property - The id 2461215677584 is used for start
-DEBUG - 2024-08-02 11:55:18,077 - jm_logger.property - The id 2461215677840 is used for length
-DEBUG - 2024-08-02 11:55:18,077 - jm_logger.property - The id 2461215678160 is used for title
-DEBUG - 2024-08-02 11:55:18,077 - jm_logger.property - The id 2461215678544 is used for description
-DEBUG - 2024-08-02 11:55:18,084 - jm_logger.event - This is the __init__ in Keyed
-DEBUG - 2024-08-02 11:55:18,084 - jm_logger.event - This is the __init__ in Audited
-INFO - 2024-08-02 11:55:18,091 - jm_logger.event - Created event: id=<Utilities_jmorga24.properties.Property object at 0x0000023D0BDD3C10>, title=Test
-DEBUG - 2024-08-02 11:55:18,099 - jm_logger.event - This is the __init__ in Keyed
-DEBUG - 2024-08-02 11:55:18,099 - jm_logger.event - This is the __init__ in Audited
-INFO - 2024-08-02 11:55:18,099 - jm_logger.event - Created event: id=<Utilities_jmorga24.properties.Property object at 0x0000023D0BDE5B90>, title=Test
-DEBUG - 2024-08-02 11:55:18,151 - jm_logger.event - This is the __init__ in Keyed
-DEBUG - 2024-08-02 11:55:18,151 - jm_logger.event - This is the __init__ in Audited
-INFO - 2024-08-02 11:55:18,151 - jm_logger.event - Created event: id=<Utilities_jmorga24.properties.Property object at 0x0000023D0BDE7E10>, title=Test
-DEBUG - 2024-08-02 11:55:18,153 - jm_logger.event - This is the __init__ in Keyed
-DEBUG - 2024-08-02 11:55:18,153 - jm_logger.event - This is the __init__ in Audited
-INFO - 2024-08-02 11:55:18,153 - jm_logger.event - Created event: id=<Utilities_jmorga24.properties.Property object at 0x0000023D0BE40B50>, title=TestxTestxTestxTestxTe...
-DEBUG - 2024-08-02 11:55:18,154 - jm_logger.event - This is the __init__ in Keyed
-DEBUG - 2024-08-02 11:55:18,154 - jm_logger.event - This is the __init__ in Audited
-DEBUG - 2024-08-02 11:55:18,156 - jm_logger.event - This is the __init__ in Keyed
-DEBUG - 2024-08-02 11:55:18,157 - jm_logger.event - This is the __init__ in Audited
-DEBUG - 2024-08-02 11:55:18,158 - jm_logger.event - This is the __init__ in Keyed
-DEBUG - 2024-08-02 11:55:18,158 - jm_logger.event - This is the __init__ in Audited
-DEBUG - 2024-08-02 11:55:18,159 - jm_logger.event - This is the __init__ in Keyed
-DEBUG - 2024-08-02 11:55:18,159 - jm_logger.event - This is the __init__ in Audited
-DEBUG - 2024-08-02 11:55:18,160 - jm_logger.event - This is the __init__ in Keyed
-DEBUG - 2024-08-02 11:55:18,160 - jm_logger.event - This is the __init__ in Audited
-DEBUG - 2024-08-02 11:55:18,161 - jm_logger.event - This is the __init__ in Keyed
-DEBUG - 2024-08-02 11:55:18,161 - jm_logger.event - This is the __init__ in Audited
-DEBUG - 2024-08-02 11:55:18,162 - jm_logger.event - This is the __init__ in Keyed
-DEBUG - 2024-08-02 11:55:18,163 - jm_logger.event - This is the __init__ in Audited
-INFO - 2024-08-02 11:55:18,163 - jm_logger.event - Created event: id=<Utilities_jmorga24.properties.Property object at 0x0000023D0BE89810>, title=Title
-DEBUG - 2024-08-02 11:55:18,170 - jm_logger.event - This is the __init__ in Keyed
-DEBUG - 2024-08-02 11:55:18,170 - jm_logger.event - This is the __init__ in Audited
-INFO - 2024-08-02 11:55:18,170 - jm_logger.event - Created event: id=<Utilities_jmorga24.properties.Property object at 0x0000023D0BE42950>, title=Title
-INFO - 2024-08-02 11:57:57,406 - jm_logger - Logger Starting: will log 'DEBUG' messages and above to: log.txt
-DEBUG - 2024-08-02 11:57:57,408 - jm_logger.property - The id 2224831661456 is used for start
-DEBUG - 2024-08-02 11:57:57,408 - jm_logger.property - The id 2224831661584 is used for length
-DEBUG - 2024-08-02 11:57:57,408 - jm_logger.property - The id 2224831085648 is used for title
-DEBUG - 2024-08-02 11:57:57,408 - jm_logger.property - The id 2224830614992 is used for description
-DEBUG - 2024-08-02 11:58:00,410 - jm_logger.event - This is the __init__ in Keyed
-DEBUG - 2024-08-02 11:58:00,410 - jm_logger.event - This is the __init__ in Audited
-INFO - 2024-08-02 11:58:00,416 - jm_logger.event - Created event: id=<Utilities_jmorga24.properties.Property object at 0x00000206024E7D90>, title=Test
-INFO - 2024-08-02 12:10:38,593 - jm_logger - Logger Starting: will log 'DEBUG' messages and above to: log.txt
+INFO - 2024-08-02 12:19:56,583 - jm_logger - Logger Starting: will log 'DEBUG' messages and above to: log.txt
+DEBUG - 2024-08-02 12:19:56,584 - jm_logger.property - The id 1567127406928 is used for jm_key
+DEBUG - 2024-08-02 12:19:56,595 - jm_logger.property - The id 1567127160080 is used for creation_date
+DEBUG - 2024-08-02 12:19:56,595 - jm_logger.property - The id 1567101949200 is used for start
+DEBUG - 2024-08-02 12:19:56,595 - jm_logger.property - The id 1567083810832 is used for length
+DEBUG - 2024-08-02 12:19:56,595 - jm_logger.property - The id 1567101857360 is used for title
+DEBUG - 2024-08-02 12:19:56,596 - jm_logger.property - The id 1567127545936 is used for description
+INFO - 2024-08-02 12:20:00,180 - jm_logger - Logger Starting: will log 'DEBUG' messages and above to: log.txt
+DEBUG - 2024-08-02 12:20:00,181 - jm_logger.property - The id 2021154129808 is used for jm_key
+DEBUG - 2024-08-02 12:20:00,184 - jm_logger.property - The id 2021153983888 is used for creation_date
+DEBUG - 2024-08-02 12:20:00,184 - jm_logger.property - The id 2021128934672 is used for start
+DEBUG - 2024-08-02 12:20:00,185 - jm_logger.property - The id 2021154265552 is used for length
+DEBUG - 2024-08-02 12:20:00,185 - jm_logger.property - The id 2021154265680 is used for title
+DEBUG - 2024-08-02 12:20:00,185 - jm_logger.property - The id 2021154268496 is used for description
+INFO - 2024-08-02 12:20:18,008 - jm_logger - Logger Starting: will log 'DEBUG' messages and above to: log.txt
+DEBUG - 2024-08-02 12:20:18,008 - jm_logger.property - The id 2159917992080 is used for jm_key
+DEBUG - 2024-08-02 12:20:18,011 - jm_logger.property - The id 2159917806096 is used for creation_date
+DEBUG - 2024-08-02 12:20:18,011 - jm_logger.property - The id 2159882954320 is used for start
+DEBUG - 2024-08-02 12:20:18,011 - jm_logger.property - The id 2159918212944 is used for length
+DEBUG - 2024-08-02 12:20:18,011 - jm_logger.property - The id 2159918215056 is used for title
+DEBUG - 2024-08-02 12:20:18,011 - jm_logger.property - The id 2159892239888 is used for description
+DEBUG - 2024-08-02 12:20:18,016 - jm_logger.event - This is the __init__ in Keyed: jm_key: 066acc0f-2023-79da-8000-b5668fff24b9
+DEBUG - 2024-08-02 12:20:18,016 - jm_logger.event - This is the __init__ in Audited: creation_date = 2024-08-02 11:20:18.008695+00:00
+INFO - 2024-08-02 12:20:18,016 - jm_logger.event - Created event: id=066acc0f-2023-79da-8000-b5668fff24b9, title=Test
+DEBUG - 2024-08-02 12:20:18,024 - jm_logger.event - This is the __init__ in Keyed: jm_key: 066acc0f-2023-79da-8000-b5668fff24b9
+DEBUG - 2024-08-02 12:20:18,024 - jm_logger.event - This is the __init__ in Audited: creation_date = 2024-08-02 11:20:18.008695+00:00
+INFO - 2024-08-02 12:20:18,024 - jm_logger.event - Created event: id=066acc0f-2023-79da-8000-b5668fff24b9, title=Test
+DEBUG - 2024-08-02 12:20:18,025 - jm_logger.event - This is the __init__ in Keyed: jm_key: 066acc0f-2023-79da-8000-b5668fff24b9
+DEBUG - 2024-08-02 12:20:18,025 - jm_logger.event - This is the __init__ in Audited: creation_date = 2024-08-02 11:20:18.008695+00:00
+INFO - 2024-08-02 12:20:18,025 - jm_logger.event - Created event: id=066acc0f-2023-79da-8000-b5668fff24b9, title=Test
+DEBUG - 2024-08-02 12:20:18,026 - jm_logger.event - This is the __init__ in Keyed: jm_key: 066acc0f-2023-79da-8000-b5668fff24b9
+DEBUG - 2024-08-02 12:20:18,026 - jm_logger.event - This is the __init__ in Audited: creation_date = 2024-08-02 11:20:18.008695+00:00
+INFO - 2024-08-02 12:20:18,026 - jm_logger.event - Created event: id=066acc0f-2023-79da-8000-b5668fff24b9, title=TestxTestxTestxTestxTe...
+DEBUG - 2024-08-02 12:20:18,027 - jm_logger.event - This is the __init__ in Keyed: jm_key: 066acc0f-2023-79da-8000-b5668fff24b9
+DEBUG - 2024-08-02 12:20:18,027 - jm_logger.event - This is the __init__ in Audited: creation_date = 2024-08-02 11:20:18.008695+00:00
+DEBUG - 2024-08-02 12:20:18,029 - jm_logger.event - This is the __init__ in Keyed: jm_key: 066acc0f-2023-79da-8000-b5668fff24b9
+DEBUG - 2024-08-02 12:20:18,029 - jm_logger.event - This is the __init__ in Audited: creation_date = 2024-08-02 11:20:18.008695+00:00
+DEBUG - 2024-08-02 12:20:18,030 - jm_logger.event - This is the __init__ in Keyed: jm_key: 066acc0f-2023-79da-8000-b5668fff24b9
+DEBUG - 2024-08-02 12:20:18,030 - jm_logger.event - This is the __init__ in Audited: creation_date = 2024-08-02 11:20:18.008695+00:00
+DEBUG - 2024-08-02 12:20:18,031 - jm_logger.event - This is the __init__ in Keyed: jm_key: 066acc0f-2023-79da-8000-b5668fff24b9
+DEBUG - 2024-08-02 12:20:18,031 - jm_logger.event - This is the __init__ in Audited: creation_date = 2024-08-02 11:20:18.008695+00:00
+DEBUG - 2024-08-02 12:20:18,032 - jm_logger.event - This is the __init__ in Keyed: jm_key: 066acc0f-2023-79da-8000-b5668fff24b9
+DEBUG - 2024-08-02 12:20:18,032 - jm_logger.event - This is the __init__ in Audited: creation_date = 2024-08-02 11:20:18.008695+00:00
+DEBUG - 2024-08-02 12:20:18,033 - jm_logger.event - This is the __init__ in Keyed: jm_key: 066acc0f-2023-79da-8000-b5668fff24b9
+DEBUG - 2024-08-02 12:20:18,033 - jm_logger.event - This is the __init__ in Audited: creation_date = 2024-08-02 11:20:18.008695+00:00
+DEBUG - 2024-08-02 12:20:18,034 - jm_logger.event - This is the __init__ in Keyed: jm_key: 066acc0f-2023-79da-8000-b5668fff24b9
+DEBUG - 2024-08-02 12:20:18,034 - jm_logger.event - This is the __init__ in Audited: creation_date = 2024-08-02 11:20:18.008695+00:00
+INFO - 2024-08-02 12:20:18,034 - jm_logger.event - Created event: id=066acc0f-2023-79da-8000-b5668fff24b9, title=Title
+ERROR - 2024-08-02 12:20:18,034 - jm_logger.property - Attempt to set readonly property creation_date
+DEBUG - 2024-08-02 12:20:18,035 - jm_logger.event - This is the __init__ in Keyed: jm_key: 066acc0f-2023-79da-8000-b5668fff24b9
+DEBUG - 2024-08-02 12:20:18,035 - jm_logger.event - This is the __init__ in Audited: creation_date = 2024-08-02 11:20:18.008695+00:00
+INFO - 2024-08-02 12:20:18,035 - jm_logger.event - Created event: id=066acc0f-2023-79da-8000-b5668fff24b9, title=Title
+ERROR - 2024-08-02 12:20:18,035 - jm_logger.property - Attempt to set readonly property jm_key
+INFO - 2024-08-02 12:20:41,588 - jm_logger - Logger Starting: will log 'DEBUG' messages and above to: log.txt
+DEBUG - 2024-08-02 12:20:41,588 - jm_logger.property - The id 2879674750608 is used for jm_key
+DEBUG - 2024-08-02 12:20:41,588 - jm_logger.property - The id 2879674855568 is used for creation_date
+DEBUG - 2024-08-02 12:20:41,588 - jm_logger.property - The id 2879674845456 is used for start
+DEBUG - 2024-08-02 12:20:41,588 - jm_logger.property - The id 2879674846032 is used for length
+DEBUG - 2024-08-02 12:20:41,588 - jm_logger.property - The id 2879674847056 is used for title
+DEBUG - 2024-08-02 12:20:41,588 - jm_logger.property - The id 2879674849104 is used for description
+INFO - 2024-08-02 14:42:39,204 - jm_logger - Logger Starting: will log 'DEBUG' messages and above to: log.txt
+DEBUG - 2024-08-02 14:42:39,204 - jm_logger.property - The id 2277847122000 is used for jm_key
+DEBUG - 2024-08-02 14:42:39,211 - jm_logger.property - The id 2277847294416 is used for creation_date
+DEBUG - 2024-08-02 14:42:39,211 - jm_logger.property - The id 2277847294544 is used for start
+DEBUG - 2024-08-02 14:42:39,211 - jm_logger.property - The id 2277846900048 is used for length
+DEBUG - 2024-08-02 14:42:39,211 - jm_logger.property - The id 2277847296848 is used for title
+DEBUG - 2024-08-02 14:42:39,211 - jm_logger.property - The id 2277847297616 is used for description
+DEBUG - 2024-08-02 14:42:39,216 - jm_logger.event - This is the __init__ in Keyed: jm_key: 066ace24-f344-7c22-8000-ab38074673c3
+DEBUG - 2024-08-02 14:42:39,216 - jm_logger.event - This is the __init__ in Audited: creation_date = 2024-08-02 13:42:39.204286+00:00
+INFO - 2024-08-02 14:42:39,216 - jm_logger.event - Created event: id=066ace24-f344-7c22-8000-ab38074673c3, title=Test
+DEBUG - 2024-08-02 14:42:39,223 - jm_logger.event - This is the __init__ in Keyed: jm_key: 066ace24-f344-7c22-8000-ab38074673c3
+DEBUG - 2024-08-02 14:42:39,223 - jm_logger.event - This is the __init__ in Audited: creation_date = 2024-08-02 13:42:39.204286+00:00
+INFO - 2024-08-02 14:42:39,223 - jm_logger.event - Created event: id=066ace24-f344-7c22-8000-ab38074673c3, title=Test
+DEBUG - 2024-08-02 14:42:39,224 - jm_logger.event - This is the __init__ in Keyed: jm_key: 066ace24-f344-7c22-8000-ab38074673c3
+DEBUG - 2024-08-02 14:42:39,224 - jm_logger.event - This is the __init__ in Audited: creation_date = 2024-08-02 13:42:39.204286+00:00
+INFO - 2024-08-02 14:42:39,224 - jm_logger.event - Created event: id=066ace24-f344-7c22-8000-ab38074673c3, title=Test
+DEBUG - 2024-08-02 14:42:39,225 - jm_logger.event - This is the __init__ in Keyed: jm_key: 066ace24-f344-7c22-8000-ab38074673c3
+DEBUG - 2024-08-02 14:42:39,226 - jm_logger.event - This is the __init__ in Audited: creation_date = 2024-08-02 13:42:39.204286+00:00
+INFO - 2024-08-02 14:42:39,226 - jm_logger.event - Created event: id=066ace24-f344-7c22-8000-ab38074673c3, title=TestxTestxTestxTestxTe...
+DEBUG - 2024-08-02 14:42:39,227 - jm_logger.event - This is the __init__ in Keyed: jm_key: 066ace24-f344-7c22-8000-ab38074673c3
+DEBUG - 2024-08-02 14:42:39,227 - jm_logger.event - This is the __init__ in Audited: creation_date = 2024-08-02 13:42:39.204286+00:00
+DEBUG - 2024-08-02 14:42:39,229 - jm_logger.event - This is the __init__ in Keyed: jm_key: 066ace24-f344-7c22-8000-ab38074673c3
+DEBUG - 2024-08-02 14:42:39,229 - jm_logger.event - This is the __init__ in Audited: creation_date = 2024-08-02 13:42:39.204286+00:00
+DEBUG - 2024-08-02 14:42:39,230 - jm_logger.event - This is the __init__ in Keyed: jm_key: 066ace24-f344-7c22-8000-ab38074673c3
+DEBUG - 2024-08-02 14:42:39,230 - jm_logger.event - This is the __init__ in Audited: creation_date = 2024-08-02 13:42:39.204286+00:00
+DEBUG - 2024-08-02 14:42:39,231 - jm_logger.event - This is the __init__ in Keyed: jm_key: 066ace24-f344-7c22-8000-ab38074673c3
+DEBUG - 2024-08-02 14:42:39,231 - jm_logger.event - This is the __init__ in Audited: creation_date = 2024-08-02 13:42:39.204286+00:00
+DEBUG - 2024-08-02 14:42:39,232 - jm_logger.event - This is the __init__ in Keyed: jm_key: 066ace24-f344-7c22-8000-ab38074673c3
+DEBUG - 2024-08-02 14:42:39,232 - jm_logger.event - This is the __init__ in Audited: creation_date = 2024-08-02 13:42:39.204286+00:00
+DEBUG - 2024-08-02 14:42:39,233 - jm_logger.event - This is the __init__ in Keyed: jm_key: 066ace24-f344-7c22-8000-ab38074673c3
+DEBUG - 2024-08-02 14:42:39,233 - jm_logger.event - This is the __init__ in Audited: creation_date = 2024-08-02 13:42:39.204286+00:00
+DEBUG - 2024-08-02 14:42:39,234 - jm_logger.event - This is the __init__ in Keyed: jm_key: 066ace24-f344-7c22-8000-ab38074673c3
+DEBUG - 2024-08-02 14:42:39,234 - jm_logger.event - This is the __init__ in Audited: creation_date = 2024-08-02 13:42:39.204286+00:00
+INFO - 2024-08-02 14:42:39,234 - jm_logger.event - Created event: id=066ace24-f344-7c22-8000-ab38074673c3, title=Title
+ERROR - 2024-08-02 14:42:39,234 - jm_logger.property - Attempt to set readonly property creation_date
+DEBUG - 2024-08-02 14:42:39,235 - jm_logger.event - This is the __init__ in Keyed: jm_key: 066ace24-f344-7c22-8000-ab38074673c3
+DEBUG - 2024-08-02 14:42:39,235 - jm_logger.event - This is the __init__ in Audited: creation_date = 2024-08-02 13:42:39.204286+00:00
+INFO - 2024-08-02 14:42:39,235 - jm_logger.event - Created event: id=066ace24-f344-7c22-8000-ab38074673c3, title=Title
+ERROR - 2024-08-02 14:42:39,235 - jm_logger.property - Attempt to set readonly property jm_key
+INFO - 2024-08-02 14:50:01,370 - jm_logger - Logger Starting: will log 'DEBUG' messages and above to: log.txt
+DEBUG - 2024-08-02 14:50:01,370 - jm_logger.property - The id 2552127149008 is used for jm_key
+DEBUG - 2024-08-02 14:50:01,370 - jm_logger.property - The id 2552127263504 is used for creation_date
+DEBUG - 2024-08-02 14:50:01,370 - jm_logger.property - The id 2552127263248 is used for start
+DEBUG - 2024-08-02 14:50:01,370 - jm_logger.property - The id 2552127264464 is used for length
+DEBUG - 2024-08-02 14:50:01,370 - jm_logger.property - The id 2552127262992 is used for title
+DEBUG - 2024-08-02 14:50:01,370 - jm_logger.property - The id 2552127265104 is used for description
+INFO - 2024-08-02 14:50:01,826 - jm_logger - Logger Starting: will log 'DEBUG' messages and above to: log.txt
+DEBUG - 2024-08-02 14:50:01,826 - jm_logger.property - The id 3054830814864 is used for jm_key
+DEBUG - 2024-08-02 14:50:01,826 - jm_logger.property - The id 3054796748752 is used for creation_date
+DEBUG - 2024-08-02 14:50:01,826 - jm_logger.property - The id 3054833178704 is used for start
+DEBUG - 2024-08-02 14:50:01,826 - jm_logger.property - The id 3054833179856 is used for length
+DEBUG - 2024-08-02 14:50:01,826 - jm_logger.property - The id 3054833179728 is used for title
+DEBUG - 2024-08-02 14:50:01,826 - jm_logger.property - The id 3054833180304 is used for description
+INFO - 2024-08-02 14:50:30,869 - jm_logger - Logger Starting: will log 'DEBUG' messages and above to: log.txt
+DEBUG - 2024-08-02 14:50:30,869 - jm_logger.property - The id 1963752849168 is used for jm_key
+DEBUG - 2024-08-02 14:50:30,869 - jm_logger.property - The id 1963753094800 is used for creation_date
+DEBUG - 2024-08-02 14:50:30,869 - jm_logger.property - The id 1963753094608 is used for start
+DEBUG - 2024-08-02 14:50:30,869 - jm_logger.property - The id 1963752153232 is used for length
+DEBUG - 2024-08-02 14:50:30,869 - jm_logger.property - The id 1963752465744 is used for title
+DEBUG - 2024-08-02 14:50:30,869 - jm_logger.property - The id 1963753096208 is used for description
+DEBUG - 2024-08-02 14:50:33,757 - jm_logger.event - This is the __init__ in Keyed: jm_key: 066ace42-6de9-7385-8001-345a3dfd7255
+DEBUG - 2024-08-02 14:50:33,757 - jm_logger.event - This is the __init__ in Audited: creation_date = 2024-08-02 13:50:30.869438+00:00
+INFO - 2024-08-02 14:50:33,757 - jm_logger.event - Created event: id=066ace42-6de9-7385-8001-345a3dfd7255, title=Test
+INFO - 2024-08-02 15:11:53,008 - jm_logger - Logger Starting: will log 'DEBUG' messages and above to: log.txt
+DEBUG - 2024-08-02 15:11:53,008 - jm_logger.property - The id 2157227706064 is used for jm_key
+DEBUG - 2024-08-02 15:11:53,008 - jm_logger.property - The id 2157227706448 is used for creation_date
+DEBUG - 2024-08-02 15:11:53,008 - jm_logger.property - The id 2157227862544 is used for start
+DEBUG - 2024-08-02 15:11:53,008 - jm_logger.property - The id 2157227862928 is used for length
+DEBUG - 2024-08-02 15:11:53,008 - jm_logger.property - The id 2157227863120 is used for title
+DEBUG - 2024-08-02 15:11:53,008 - jm_logger.property - The id 2157227863440 is used for description
+INFO - 2024-08-02 15:11:56,159 - jm_logger - Logger Starting: will log 'DEBUG' messages and above to: log.txt
+DEBUG - 2024-08-02 15:11:56,159 - jm_logger.property - The id 3259728431824 is used for jm_key
+DEBUG - 2024-08-02 15:11:56,159 - jm_logger.property - The id 3259728568336 is used for creation_date
+DEBUG - 2024-08-02 15:11:56,159 - jm_logger.property - The id 3259728568848 is used for start
+DEBUG - 2024-08-02 15:11:56,159 - jm_logger.property - The id 3259728569232 is used for length
+DEBUG - 2024-08-02 15:11:56,159 - jm_logger.property - The id 3259728569424 is used for title
+DEBUG - 2024-08-02 15:11:56,159 - jm_logger.property - The id 3259728569680 is used for description
+INFO - 2024-08-02 15:12:31,159 - jm_logger - Logger Starting: will log 'DEBUG' messages and above to: log.txt
+DEBUG - 2024-08-02 15:12:31,159 - jm_logger.property - The id 2178083031760 is used for jm_key
+DEBUG - 2024-08-02 15:12:31,159 - jm_logger.property - The id 2178083168272 is used for creation_date
+DEBUG - 2024-08-02 15:12:31,159 - jm_logger.property - The id 2178083168784 is used for start
+DEBUG - 2024-08-02 15:12:31,159 - jm_logger.property - The id 2178083169168 is used for length
+DEBUG - 2024-08-02 15:12:31,159 - jm_logger.property - The id 2178083169360 is used for title
+DEBUG - 2024-08-02 15:12:31,159 - jm_logger.property - The id 2178083169616 is used for description

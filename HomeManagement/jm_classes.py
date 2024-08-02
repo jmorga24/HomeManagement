@@ -22,8 +22,9 @@ class Keyed():
     '''
     A base class that ensures an imutable unique(ish) key for an instance.
     '''
-    jm_key = roperty(initial_value=str(uuid7()), readonly=True)
+    jm_key = Property(readonly=True)
     def __init__(self):
+        self.__jm_key = str(uuid7())
         log.debug("This is the __init__ in Keyed: jm_key: %s", self.jm_key)
 
 # Application Classes
@@ -33,9 +34,10 @@ class Audited():
     # pylint: disable=too-few-public-methods
     ''' Generate audit values on a new instance
     '''
-    creation_date = Property(initial_value=datetime.now().astimezone(ZoneInfo('UTC')), readonly=True)
+    creation_date = Property(readonly=True)
     def __init__(self):
         log.debug("This is the __init__ in Audited: creation_date = %s", self.creation_date)
+        self.__creation_date = datetime.now().astimezone(ZoneInfo('UTC'))
         # self.creation_date = Property(
         #     initial_value=datetime.now().astimezone(ZoneInfo('UTC')), readonly=True)
 
