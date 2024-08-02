@@ -142,3 +142,17 @@ DEBUG - 2024-08-02 15:12:31,159 - jm_logger.property - The id 2178083168784 is u
 DEBUG - 2024-08-02 15:12:31,159 - jm_logger.property - The id 2178083169168 is used for length
 DEBUG - 2024-08-02 15:12:31,159 - jm_logger.property - The id 2178083169360 is used for title
 DEBUG - 2024-08-02 15:12:31,159 - jm_logger.property - The id 2178083169616 is used for description
+INFO - 2024-08-02 15:13:29,820 - jm_logger - Logger Starting: will log 'DEBUG' messages and above to: log.txt
+DEBUG - 2024-08-02 15:13:29,820 - jm_logger.property - The id 2036480363344 is used for jm_key
+DEBUG - 2024-08-02 15:13:29,820 - jm_logger.property - The id 2036480608912 is used for creation_date
+DEBUG - 2024-08-02 15:13:29,820 - jm_logger.property - The id 2036480609936 is used for start
+DEBUG - 2024-08-02 15:13:29,820 - jm_logger.property - The id 2036480610064 is used for length
+DEBUG - 2024-08-02 15:13:29,820 - jm_logger.property - The id 2036480610256 is used for title
+DEBUG - 2024-08-02 15:13:29,820 - jm_logger.property - The id 2036479495632 is used for description
+INFO - 2024-08-02 15:14:29,477 - jm_logger - Logger Starting: will log 'DEBUG' messages and above to: log.txt
+DEBUG - 2024-08-02 15:14:29,477 - jm_logger.property - The id 2190837123344 is used for jm_key
+DEBUG - 2024-08-02 15:14:29,477 - jm_logger.property - The id 2190811476816 is used for creation_date
+DEBUG - 2024-08-02 15:14:29,477 - jm_logger.property - The id 2190837260048 is used for start
+DEBUG - 2024-08-02 15:14:29,477 - jm_logger.property - The id 2190837260496 is used for length
+DEBUG - 2024-08-02 15:14:29,477 - jm_logger.property - The id 2190837260752 is used for title
+DEBUG - 2024-08-02 15:14:29,477 - jm_logger.property - The id 2190837261072 is used for description

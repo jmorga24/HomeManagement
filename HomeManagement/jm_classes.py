@@ -25,7 +25,7 @@ class Keyed():
     jm_key = Property(readonly=True)
     def __init__(self):
         self.__jm_key = str(uuid7())
-        log.debug("This is the __init__ in Keyed: jm_key: %s", self.jm_key)
+        log.debug("This is the __init__ in Keyed: jm_key: %s", self.__jm_key)
 
 # Application Classes
 
@@ -36,7 +36,7 @@ class Audited():
     '''
     creation_date = Property(readonly=True)
     def __init__(self):
-        log.debug("This is the __init__ in Audited: creation_date = %s", self.creation_date)
+        log.debug("This is the __init__ in Audited: creation_date = %s", self.__creation_date)
         self.__creation_date = datetime.now().astimezone(ZoneInfo('UTC'))
         # self.creation_date = Property(
         #     initial_value=datetime.now().astimezone(ZoneInfo('UTC')), readonly=True)
