@@ -9,8 +9,8 @@ from uuid_extensions import uuid7 # type: ignore
 
 sys.path.append("..")
 from jm_classes import Event
-from property_plugins import NormalizeBase, PluginError, ValidateBase
-from properties import Property, ReadOnlyProperty
+from Utilities_jmorga24.property_plugins import NormalizeBase, PluginError, ValidateBase
+from Utilities_jmorga24.properties import Property
 
 class TestEventClass():
     '''

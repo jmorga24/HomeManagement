@@ -11,16 +11,20 @@ Account: Represents a single account.
 from datetime import datetime, timedelta, date
 from zoneinfo import ZoneInfo
 from uuid_extensions import uuid7  # type: ignore
-from properties import Property, ReadOnlyProperty
-from property_plugins import UtcDate, MaxLenStr, IsDateOrDatetime, RequiredInt, RequiredString
+from Utilities_jmorga24.properties import Property
+from Utilities_jmorga24.property_plugins import UtcDate, MaxLenStr, IsDateOrDatetime, RequiredInt, RequiredString
+from Utilities_jmorga24.log import get_logger
 
+log = get_logger("event")
 
 class Keyed():
     # pylint: disable=too-few-public-methods
     '''
     A base class that ensures an imutable unique(ish) key for an instance.
     '''
-    jm_key = ReadOnlyProperty(initial_value=str(uuid7()))
+    jm_key = roperty(initial_value=str(uuid7()), readonly=True)
+    def __init__(self):
+        log.debug("This is the __init__ in Keyed: jm_key: %s", self.jm_key)
 
 # Application Classes
 
@@ -29,8 +33,11 @@ class Audited():
     # pylint: disable=too-few-public-methods
     ''' Generate audit values on a new instance
     '''
-    creation_date = ReadOnlyProperty(
-        initial_value=datetime.now().astimezone(ZoneInfo('UTC')))
+    creation_date = Property(initial_value=datetime.now().astimezone(ZoneInfo('UTC')), readonly=True)
+    def __init__(self):
+        log.debug("This is the __init__ in Audited: creation_date = %s", self.creation_date)
+        # self.creation_date = Property(
+        #     initial_value=datetime.now().astimezone(ZoneInfo('UTC')), readonly=True)
 
 
 class Event(Keyed, Audited):
@@ -40,18 +47,19 @@ class Event(Keyed, Audited):
     '''
     start = Property(normalize=UtcDate, validate=IsDateOrDatetime)
     length = Property(validate=RequiredInt, data={"min_value": 0})
-    title = Property(normalize=MaxLenStr,
-                     validate=RequiredString, data={"max_len": 25})
+    title = Property(normalize=MaxLenStr, validate=RequiredString, data={"max_len": 25})
     description = Property()
 
     def __init__(self, *, title: str, evt_start: date | datetime,
                  evt_length_minutes: int = 0, description: str = ""):
-        super().__init__()
+        Keyed.__init__(self)
+        Audited.__init__(self)
         self.start = evt_start
         self.length = evt_length_minutes
         self.title = title
         self.description = description if isinstance(
             description, str) and len(description) > 0 else self.title
+        log.info("Created event: id=%s, title=%s", self.jm_key, self.title)
 
     def end(self):
         ''' Calculate the end time of the event based on the start datetime 

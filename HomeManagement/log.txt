@@ -1,0 +1,44 @@
+INFO - 2024-08-02 11:55:18,076 - jm_logger - Logger Starting: will log 'DEBUG' messages and above to: log.txt
+DEBUG - 2024-08-02 11:55:18,076 - jm_logger.property - The id 2461215677584 is used for start
+DEBUG - 2024-08-02 11:55:18,077 - jm_logger.property - The id 2461215677840 is used for length
+DEBUG - 2024-08-02 11:55:18,077 - jm_logger.property - The id 2461215678160 is used for title
+DEBUG - 2024-08-02 11:55:18,077 - jm_logger.property - The id 2461215678544 is used for description
+DEBUG - 2024-08-02 11:55:18,084 - jm_logger.event - This is the __init__ in Keyed
+DEBUG - 2024-08-02 11:55:18,084 - jm_logger.event - This is the __init__ in Audited
+INFO - 2024-08-02 11:55:18,091 - jm_logger.event - Created event: id=<Utilities_jmorga24.properties.Property object at 0x0000023D0BDD3C10>, title=Test
+DEBUG - 2024-08-02 11:55:18,099 - jm_logger.event - This is the __init__ in Keyed
+DEBUG - 2024-08-02 11:55:18,099 - jm_logger.event - This is the __init__ in Audited
+INFO - 2024-08-02 11:55:18,099 - jm_logger.event - Created event: id=<Utilities_jmorga24.properties.Property object at 0x0000023D0BDE5B90>, title=Test
+DEBUG - 2024-08-02 11:55:18,151 - jm_logger.event - This is the __init__ in Keyed
+DEBUG - 2024-08-02 11:55:18,151 - jm_logger.event - This is the __init__ in Audited
+INFO - 2024-08-02 11:55:18,151 - jm_logger.event - Created event: id=<Utilities_jmorga24.properties.Property object at 0x0000023D0BDE7E10>, title=Test
+DEBUG - 2024-08-02 11:55:18,153 - jm_logger.event - This is the __init__ in Keyed
+DEBUG - 2024-08-02 11:55:18,153 - jm_logger.event - This is the __init__ in Audited
+INFO - 2024-08-02 11:55:18,153 - jm_logger.event - Created event: id=<Utilities_jmorga24.properties.Property object at 0x0000023D0BE40B50>, title=TestxTestxTestxTestxTe...
+DEBUG - 2024-08-02 11:55:18,154 - jm_logger.event - This is the __init__ in Keyed
+DEBUG - 2024-08-02 11:55:18,154 - jm_logger.event - This is the __init__ in Audited
+DEBUG - 2024-08-02 11:55:18,156 - jm_logger.event - This is the __init__ in Keyed
+DEBUG - 2024-08-02 11:55:18,157 - jm_logger.event - This is the __init__ in Audited
+DEBUG - 2024-08-02 11:55:18,158 - jm_logger.event - This is the __init__ in Keyed
+DEBUG - 2024-08-02 11:55:18,158 - jm_logger.event - This is the __init__ in Audited
+DEBUG - 2024-08-02 11:55:18,159 - jm_logger.event - This is the __init__ in Keyed
+DEBUG - 2024-08-02 11:55:18,159 - jm_logger.event - This is the __init__ in Audited
+DEBUG - 2024-08-02 11:55:18,160 - jm_logger.event - This is the __init__ in Keyed
+DEBUG - 2024-08-02 11:55:18,160 - jm_logger.event - This is the __init__ in Audited
+DEBUG - 2024-08-02 11:55:18,161 - jm_logger.event - This is the __init__ in Keyed
+DEBUG - 2024-08-02 11:55:18,161 - jm_logger.event - This is the __init__ in Audited
+DEBUG - 2024-08-02 11:55:18,162 - jm_logger.event - This is the __init__ in Keyed
+DEBUG - 2024-08-02 11:55:18,163 - jm_logger.event - This is the __init__ in Audited
+INFO - 2024-08-02 11:55:18,163 - jm_logger.event - Created event: id=<Utilities_jmorga24.properties.Property object at 0x0000023D0BE89810>, title=Title
+DEBUG - 2024-08-02 11:55:18,170 - jm_logger.event - This is the __init__ in Keyed
+DEBUG - 2024-08-02 11:55:18,170 - jm_logger.event - This is the __init__ in Audited
+INFO - 2024-08-02 11:55:18,170 - jm_logger.event - Created event: id=<Utilities_jmorga24.properties.Property object at 0x0000023D0BE42950>, title=Title
+INFO - 2024-08-02 11:57:57,406 - jm_logger - Logger Starting: will log 'DEBUG' messages and above to: log.txt
+DEBUG - 2024-08-02 11:57:57,408 - jm_logger.property - The id 2224831661456 is used for start
+DEBUG - 2024-08-02 11:57:57,408 - jm_logger.property - The id 2224831661584 is used for length
+DEBUG - 2024-08-02 11:57:57,408 - jm_logger.property - The id 2224831085648 is used for title
+DEBUG - 2024-08-02 11:57:57,408 - jm_logger.property - The id 2224830614992 is used for description
+DEBUG - 2024-08-02 11:58:00,410 - jm_logger.event - This is the __init__ in Keyed
+DEBUG - 2024-08-02 11:58:00,410 - jm_logger.event - This is the __init__ in Audited
+INFO - 2024-08-02 11:58:00,416 - jm_logger.event - Created event: id=<Utilities_jmorga24.properties.Property object at 0x00000206024E7D90>, title=Test
+INFO - 2024-08-02 12:10:38,593 - jm_logger - Logger Starting: will log 'DEBUG' messages and above to: log.txt

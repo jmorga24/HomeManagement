@@ -47,6 +47,8 @@
     <Folder Include="tests\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="jm_config.dev.json" />
+    <Content Include="jm_config.json" />
     <Content Include="Local Settings\PythonSettings.json" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

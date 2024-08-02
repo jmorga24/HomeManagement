@@ -1,0 +1,17 @@
+{
+  "environment":  "dev",
+  "logging": {
+    "logtype": "file",
+    "filename": "log.txt",
+    "level": "critical"
+  },
+  "db": {
+    "dbname": "dbname",
+    "user_name": "user",
+    "password": "pwd"
+  },
+  "api address": {
+    "domain": "localhost",
+    "port": "3000"
+  }
+}
