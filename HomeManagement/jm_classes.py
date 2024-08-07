@@ -36,10 +36,8 @@ class Audited():
     '''
     creation_date = Property(readonly=True)
     def __init__(self):
-        log.debug("This is the __init__ in Audited: creation_date = %s", self.__creation_date)
         self.__creation_date = datetime.now().astimezone(ZoneInfo('UTC'))
-        # self.creation_date = Property(
-        #     initial_value=datetime.now().astimezone(ZoneInfo('UTC')), readonly=True)
+        log.debug("This is the __init__ in Audited: creation_date = %s", self.__creation_date)
 
 
 class Event(Keyed, Audited):

@@ -3,6 +3,8 @@ Unit tests for jm_classes.Event class.
 '''
 import sys
 from datetime import date, datetime, timedelta
+from time import time
+from zoneinfo import ZoneInfo
 
 import pytest
 from uuid_extensions import uuid7 # type: ignore
@@ -31,35 +33,40 @@ class TestEventClass():
             6: The end property is an instance of datetime
             7: The end property is correct based on the start property + the length property       
         '''
-        e = Event(title="Test", evt_start= datetime.now(), evt_length_minutes=60,
+        t = datetime.now()
+        e = Event(title="Test", evt_start=t, evt_length_minutes=60,
                   description="This is the long description")
+
         assert isinstance(e, Event)
         assert e.title == "Test"
         assert isinstance(e.start, datetime)
+        assert e.start == t.astimezone(tz= ZoneInfo('UTC'))
         assert e.length == 60
         assert e.description == "This is the long description"
         assert isinstance(e.end(), datetime)
-        assert e.end() == e.start + timedelta(minutes= 60)
+        assert e.end() == e.start + timedelta(minutes = 60)
         assert isinstance(e.creation_date, datetime)
+        assert e.jm_key
 
 
     def test_create_instance_of_event_with_date(self):
         ''' Confirm that passing a date as the start argument works
             1: We get an instance of Event
-            3: The start property is an instance of datetime    
+            3: The start property is an instance of datetime
+            4: The start property matches the input date
         '''
-        t = datetime.now()
-        e = Event(title="Test", evt_start= date(t.year, t.month, t.day),
-                  evt_length_minutes=60, description="This is the long description")
+        t = datetime.now().date()
+        e = Event(title="Test", evt_start= t, evt_length_minutes=60, description="This is the long description")
         assert isinstance(e, Event)
-        print(e.start)
         assert isinstance(e.start, datetime)
+        # we expect e.start to be midnight of the date input adjusted to UTC
+        assert e.start == datetime(t.year, t.month, t.day, hour=0, minute=0, second=0).astimezone(tz=ZoneInfo('UTC'))
 
 
     def test_create_instance_with_long_title(self):
         ''' Confirm that passing a long title - currently title length is limited to 25 chars
             1: We get an instance of Event
-            3: The title property is runcated  
+            3: The title property is truncated  
         '''
         e = Event(title="TestxTestxTestxTestxTestxTestxTestxTestx",
                   evt_start= datetime.now(), evt_length_minutes=60,
