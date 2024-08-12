@@ -6,7 +6,7 @@
     "level": "critical"
   },
   "db": {
-    "dbname": "dbname",
+    "dbname": "db",
     "user_name": "user",
     "password": "pwd"
   },

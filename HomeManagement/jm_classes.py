@@ -14,6 +14,7 @@ from uuid_extensions import uuid7  # type: ignore
 from Utilities_jmorga24.properties import Property
 from Utilities_jmorga24.property_plugins import UtcDate, MaxLenStr, IsDateOrDatetime, RequiredInt, RequiredString
 from Utilities_jmorga24.log import get_logger
+import db
 
 log = get_logger("event")
 
@@ -28,8 +29,6 @@ class Keyed():
         log.debug("This is the __init__ in Keyed: jm_key: %s", self.__jm_key)
 
 # Application Classes
-
-
 class Audited():
     # pylint: disable=too-few-public-methods
     ''' Generate audit values on a new instance

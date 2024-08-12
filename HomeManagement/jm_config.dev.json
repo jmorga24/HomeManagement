@@ -1,10 +1,10 @@
 {
   "versions":  [1, 2, 3 ,4],
   "logging": {
-    "level": "debug"
+    "level": "info"
   },
   "db": {
-    "dbname": "test.dbname"
+    "dbname": "test.db"
   },
   "api address": {
     "flag": "dev"
